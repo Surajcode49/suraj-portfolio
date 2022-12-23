@@ -10,7 +10,7 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
+  --primary-color: rgb(13, 241, 146);
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -18,12 +18,15 @@
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
+   background-image:url(src/sk3.jpg); 
+     background-size:cover;
+   
 }
 /* Variables end */
 
 html {
   scroll-behavior: smooth;
- background-image:url(src/bgg.png);
+ /* background-image:url(src/bg4.png); */
  
 }
 
@@ -49,14 +52,14 @@ a:hover {
 
 body {
   font-family: var(--font-family);
-  background-image:url(src/bgg.png);
-  background-repeat: no-repeat;
+  /* background-image:url(src/bg4.png); */
+
 }
 
 
 nav {
    
-    position: sticky;
+    
     top: 0;
     left: 0;
     z-index: 1;
@@ -64,7 +67,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background: linear-gradient(to right,rgb(53, 52, 52)10%,#9966db3f 100%);
+    background: linear-gradient(to right,rgb(54, 53, 63)10%,#42474a3f 100%);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   }
 
@@ -121,7 +124,7 @@ nav {
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-    color: rgb(144, 76, 76);
+    color: hsl(28, 95%, 46%);
   }
   
   .bio h1 {
@@ -138,14 +141,14 @@ nav {
   .more-about {
     background-color: var(--bg-color);
     padding: 1rem 6rem;
-    color: rgb(144, 76, 76);
-    background: linear-gradient(to right,rgb(53, 52, 52)10%,#2602563f 100%);
+    color: hsl(28, 95%, 46%);
+     background: linear-gradient(to right,black,#0133373f 100%); 
   }
   
   .more-about h2 {
     margin-bottom: var(--bottom-margin);
     text-align: center;
-    color: rgb(144, 76, 76);
+    color: hsl(28, 95%, 46%);
     
   }
   
@@ -156,7 +159,7 @@ nav {
   }
 
   .skills {
-     color: rgb(144, 76, 76);
+     color: hsl(28, 95%, 46%);
     max-width: 68.75rem;
     margin: auto;
     text-align: center;
@@ -206,7 +209,7 @@ nav {
   .projects-title {
     text-align: center;
     margin-bottom: 1rem;
-    color: rgb(144, 76, 76);
+    color: hsl(28, 95%, 46%);
   }
   
   .project-container {
@@ -243,7 +246,7 @@ nav {
   .contact h2 {
     text-align: center;
     margin-bottom: var(--bottom-margin-2);
-    color: rgb(144, 76, 76);
+    color: hsl(28, 95%, 46%);
   }
   
   .contact-form-container {
