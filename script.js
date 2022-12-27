@@ -8,7 +8,7 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
-
+      // open the burger m
 
        const burger = document.querySelector("#burger-menu");
         const ul = document.querySelector("nav ul");
